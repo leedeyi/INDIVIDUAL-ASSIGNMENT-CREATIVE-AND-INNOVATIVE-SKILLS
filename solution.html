@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zoo Negara Malaysia - Solutions</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <i class="fa-solid fa-paw logo-icon"></i>
+        <span>Zoo Negara <small>Malaysia</small></span>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="problem.html">Problem</a></li>
+          <li><a href="process.html">Process</a></li>
+          <li><a href="solution.html" class="active">Solution</a></li>
+          <li><a href="benefit.html">Benefits</a></li>
+          <li><a href="about_me.html" class="nav-btn">About Me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- Main Content Container -->
+  <main class="container page-content-padding">
+    <!-- 4. Solution Section -->
+    <section id="solution" class="section">
+      <div class="section-title">
+        <h2>Solutions</h2>
+      </div>
+      <div class="solution-slider-card">
+        <div class="solution-display">
+          <div class="solution-text-panel">
+            <span class="sol-step-index" id="solIndex">01</span>
+            <h3 id="solTitle">1. Financial crisis during the COVID-19 pandemic</h3>
+            <div id="solDesc" class="sol-desc-container"></div>
+            <div id="solSource" class="sol-source-container"></div>
+          </div>
+          <div class="solution-image-panel">
+            <img id="solImage" src="images/picture_solutions_4.jpg" alt="Solution Image">
+          </div>
+        </div>
+        <div class="solution-controls">
+          <button class="sol-nav-btn" id="solPrevBtn" aria-label="Previous Solution">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button class="sol-nav-btn" id="solNextBtn" aria-label="Next Solution">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
